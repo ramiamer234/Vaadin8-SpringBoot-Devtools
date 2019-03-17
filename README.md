@@ -2,10 +2,10 @@
 This project is comprised of Vaadin8, Spring Boot, Spring Boot Dev-tools, MySql, ehcache, scss &amp; css technologies.
 
 ### Vaadin-8 Login Page
-![](screenshots/Vaadin8-Login.jpeg)
+![](screenshots/Vaadin8-Login.png)
 
 ### Vaadin-8 Main Page
-![](screenshots/Vaadin8-Main.jpeg)
+![](screenshots/Vaadin8-Main.png)
 
 ## How to run?
   * Clone this project to your local machine.
