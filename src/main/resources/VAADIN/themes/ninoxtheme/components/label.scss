@@ -1,0 +1,31 @@
+@mixin label {
+
+	.linespace {
+		 line-height: 0.8;
+	}
+	
+	.modulenames {
+		font-weight: 600;
+		color: #F4FAE1;
+		font-size: 11px;
+	}
+	
+	.heading1 {
+		font-weight: 200;
+		color: #F4FAE1;
+		font-size: 12px;
+	}
+	
+	.heading2 {
+		font-weight: 600;
+		color: #FFFFFF;
+		font-size: 14px;
+	}
+	
+	.heading3 {
+		font-weight: 400;
+		color: #0ddbd3;
+		font-size: 20px;
+	}
+
+}

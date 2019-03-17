@@ -1,0 +1,162 @@
+// If you edit this file you need to compile the theme. See README.md for details.
+
+// Global variable overrides. Must be declared before importing Valo.
+
+// Defines the plaintext font size, weight and family. Font size affects general component sizing.
+//$v-font-size: 16px;
+//$v-font-weight: 300;
+//$v-font-family: "Open Sans", sans-serif;
+
+// Defines the border used by all components.
+//$v-border: 1px solid (v-shade 0.7);
+//$v-border-radius: 4px;
+
+// Affects the color of some component elements, e.g Button, Panel title, etc
+//$v-background-color: hsl(210, 0%, 98%);
+// Affects the color of content areas, e.g  Panel and Window content, TextField input etc
+//$v-app-background-color: $v-background-color;
+
+// Affects the visual appearance of all components
+//$v-gradient: v-linear 8%;
+//$v-bevel-depth: 30%;
+//$v-shadow-opacity: 5%;
+
+// Defines colors for indicating status (focus, success, failure)
+//$v-focus-color: valo-focus-color(); // Calculates a suitable color automatically
+//$v-friendly-color: #2c9720;
+//$v-error-indicator-color: #ed473b;
+
+// For more information, see: https://vaadin.com/book/-/page/themes.valo.html
+// Example variants can be copy/pasted from https://vaadin.com/wiki/-/wiki/Main/Valo+Examples
+
+@import "../valo/valo.scss";
+
+@import "components/button.scss";
+@import "components/textfield.scss";
+@import "components/tabsheet.scss";
+@import "components/combobox.scss";
+@import "components/label.scss";
+@import "components/grid.scss";
+@import "components/tree.scss";
+
+@mixin ninoxtheme {
+  	@include valo;
+  	@include button;
+	@include textfield;
+	@include tabsheet;
+	@include combobox;
+	@include label;
+	@include grid;
+	@include tree;
+	
+
+  	// Insert your own theme rules here
+  	.backgroundimage {
+		background-image: url(images/loginbg.jpg) !important;
+	}
+		
+	.loginformbackround {
+		background: transparent;
+	}
+	
+	.loginleftpanel {
+		padding-left: 0px;
+	    padding-right: 0px;
+	    background: -moz-linear-gradient(to right, rgba(44, 140, 191, 0.95) 0%, rgba(11, 232, 223, 0.95) 100%);
+	    background: -webkit-linear-gradient(top, rgba(44, 140, 191, 0.95) 0%, rgba(11, 232, 223, 0.95) 100%);
+	    background: -o-linear-gradient(top, rgba(44, 140, 191, 0.95) 0%, rgba(11, 232, 223, 0.95) 100%);
+		background: -ms-linear-gradient(top, rgba(44, 140, 191, 0.95) 0%, rgba(11, 232, 223, 0.95) 100%);
+		background: -webkit-gradient(linear, right bottom, left top, color-stop(0%, rgba(44, 140, 191, 0.95)), color-stop(100%, rgba(11, 232, 223, 0.95)));
+	}
+		
+	.loginrightpanel {
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    background-color: #084063;
+	}
+	
+	.hlheadererplogo {
+		background: -moz-linear-gradient(to right, rgba(44, 140, 191, 0) 90%, rgba(11, 232, 223, 0.95) 90%);
+	    background: -webkit-linear-gradient(top, rgba(44, 140, 191, 0) 90%, rgba(11, 232, 223, 0.95) 90%);
+	    background: -o-linear-gradient(top, rgba(44, 140, 191, 0) 90%, rgba(11, 232, 223, 0.95) 100%);
+		background: -webkit-gradient(linear, right bottom, left top, color-stop(0%, rgba(44, 140, 191, 0)), color-stop(100%, rgba(11, 232, 223, 0.95)));
+	}
+	
+	.userphoto {
+		background: #ffffff;
+		/* background: transparent opacity:.9; */
+		-webkit-border-radius: 50px;
+		-moz-border-radius: 50px;
+		border-radius: 50px;
+		/*-webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 2);
+		-moz-box-shadow: 0 4px 20px rgba(0, 0, 0, 2);
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 2);
+		padding: 1em 1em 2em;*/
+	}
+	
+	.hlheadercompany {
+		background: #333333;
+	}
+	
+	.hlheader {
+		background: #333333;
+	}
+	
+	.hlspinner {
+		background: #0EA9B2;
+		position: absolute;
+	}
+	
+	.hlbreadscrum {
+		background: #EAEAEA;
+	}
+	
+	.vlmodule {
+		background: #222222;
+	}
+	
+	.module {
+		background: #222222;
+		cursor: pointer;
+	}
+	
+	.module:hover {
+		background: #333333;
+	}
+	
+	.moduleclicked {
+		background: #333333;
+		cursor: pointer;
+	}
+	
+	.vlmenu {
+		background: #333333;
+	}
+	
+	.treemenu {
+		cursor: pointer;
+	}
+	
+	.vlcontent {
+		background: #ffffff;
+	}
+	
+	.hlmenucontent {
+		background: #ffffff;
+	}
+	
+	.hlfooter {
+		background: #0EA9B2;
+	}
+	
+	.signout {
+		cursor: pointer;
+	}
+	
+	img.v-icon {
+		vertical-align: baseline;
+	}
+	
+	
+	
+}

@@ -1,0 +1,59 @@
+@mixin textfield {
+
+	.logintextfield {
+		background: transparent;
+		border-radius: 0px;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		border-bottom-width: 2px;
+		border-bottom-color: #ddf9fc;
+		-webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0), inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0);
+		box-shadow: 0 0 0 2px rgba(255, 255, 255, 0), inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0);
+		-webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+		box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+	}
+	
+	.logintextfield:focus {
+		background: transparent;
+		border-radius: 0px;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		border-bottom-width: 2px;
+		border-bottom-color: #ddf9fc;
+		-webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0), inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0);
+		box-shadow: 0 0 0 2px rgba(255, 255, 255, 0), inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0);
+		-webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+		box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+	}
+	
+	.loginpasswdfield {
+		background: transparent;
+		border-radius: 0px;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		border-bottom-width: 2px;
+		border-bottom-color: #ddf9fc;
+		-webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0), inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0);
+		box-shadow: 0 0 0 2px rgba(255, 255, 255, 0), inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0);
+		-webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+		box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+	}
+	
+	.loginpasswdfield:focus {
+		background: transparent;
+		border-radius: 0px;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		border-bottom-width: 2px;
+		border-bottom-color: #ddf9fc;
+		-webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0), inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0);
+		box-shadow: 0 0 0 2px rgba(255, 255, 255, 0), inset 0 1px 0 #f7f7f7, 0 1px 0 rgba(255, 255, 255, 0);
+		-webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+		box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+	}
+	
+}
